@@ -70,6 +70,10 @@ async def startup_event():
     get_engine()
     print("API server running on http://localhost:8000")
 
+@app.get("/")
+def root():
+    return {"message": "SHL Assessment Recommender API is running."}
+
 @app.get("/health", response_model=HealthResponse, tags=["Health"])
 def health_check():
     """
