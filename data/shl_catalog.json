@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Core Java (Entry Level)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/",
+    "description": "Assesses entry-level Java programming skills and basic object-oriented programming concepts.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "30 minutes",
+    "test_type": "Programming"
+  },
+  {
+    "name": "Business Collaboration Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/business-collaboration-skills/",
+    "description": "Evaluates ability to work in teams, communicate effectively, and collaborate on business projects.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "Yes",
+    "duration": "45 minutes",
+    "test_type": "Behavioral"
+  },
+  {
+    "name": "Python Developer Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/python-developer-assessment/",
+    "description": "Measures proficiency in Python programming language, data structures, and software design patterns.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "60 minutes",
+    "test_type": "Programming"
+  },
+  {
+    "name": "Leadership Potential Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/leadership-potential-assessment/",
+    "description": "Identifies leadership aptitude, decision-making skills, and ability to inspire teams.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "Yes",
+    "duration": "45 minutes",
+    "test_type": "Behavioral"
+  },
+  {
+    "name": "Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/numerical-reasoning/",
+    "description": "Evaluates ability to analyze and interpret numerical data and make sound decisions.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "Yes",
+    "duration": "35 minutes",
+    "test_type": "Aptitude"
+  },
+  {
+    "name": "Frontend Developer Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/frontend-developer-skills/",
+    "description": "Assesses HTML, CSS, JavaScript skills and responsive design knowledge for web development.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "45 minutes",
+    "test_type": "Programming"
+  },
+  {
+    "name": "Emotional Intelligence",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/emotional-intelligence/",
+    "description": "Measures self-awareness, empathy, and ability to manage emotions in workplace scenarios.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "30 minutes",
+    "test_type": "Personality"
+  },
+  {
+    "name": "Critical Thinking Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/critical-thinking-assessment/",
+    "description": "Evaluates logical reasoning, problem-solving and decision-making abilities.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "Yes",
+    "duration": "40 minutes",
+    "test_type": "Aptitude"
+  },
+  {
+    "name": "SQL Database Skills",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-database-skills/",
+    "description": "Tests knowledge of SQL queries, database design, and data manipulation capabilities.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "45 minutes",
+    "test_type": "Technical"
+  },
+  {
+    "name": "Workplace Safety Awareness",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-awareness/",
+    "description": "Assesses understanding of safety protocols, risk identification, and proper safety procedures.",
+    "remote_testing_support": "Yes",
+    "adaptive_irt_support": "No",
+    "duration": "25 minutes",
+    "test_type": "Knowledge"
+  }
+]
