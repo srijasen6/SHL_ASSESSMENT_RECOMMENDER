@@ -47,6 +47,16 @@ class RecommendationResponse(BaseModel):
     count: int = Field(..., example=1)
     processing_time: float = Field(..., example=0.5)
 
+# New Query model for search endpoint
+class SearchQuery(BaseModel):
+    text: str
+
+# Mock database for search endpoint
+mock_data = {
+    "python": {"language": "Python", "use": "Web Dev/Data Science"},
+    "java": {"language": "Java", "use": "Enterprise Apps"}
+}
+
 # Create FastAPI app
 app = FastAPI(
     title="SHL Assessment Recommendation API",
@@ -73,6 +83,23 @@ def health_check():
         "version": "1.0.0",
         "timestamp": int(time.time())
     }
+
+@app.post("/search")
+async def search(text: str):
+    return {"results": f"Searching for: {text}"}
+
+@app.post("/search", tags=["Search"])
+async def search_query(query: SearchQuery):
+    """
+    Search endpoint for mock data.
+    
+    Args:
+        query: Search query containing text to search for
+        
+    Returns:
+        Search results or error message
+    """
+    return mock_data.get(query.text.lower(), {"error": "Not found"})
 
 @app.get("/recommend", response_model=RecommendationResponse, tags=["Recommendations"])
 def recommend(
